@@ -49,8 +49,9 @@ Nesta etapa inicial, foi realizada a leitura do conjunto de dados seguido de:
 * Uma matriz de confusão foi gerada para visualizar os erros do classificador.
 
 #### 🎯 Resultados:
-
-(projeto_01\assets\metrics.png)
+|Métricas|
+|--------|
+|![metricas](./assets/metrics.png)|
 
 O modelo de predição de doenças cardíacas obteve uma acurácia de 64%, ou seja, **acertou 64% dos diagnósticos**. A matriz de confusão mostra que ele acertou 109 casos em que a pessoa não tinha a doença e 64 casos em que a pessoa realmente tinha. Por outro lado, errou 41 vezes ao indicar doença em quem não tinha e 55 vezes ao não detectar a doença em quem tinha. A precisão foi de 66% para pessoas sem a doença e 61% para quem tinha. O recall foi de 73% para casos negativos e 54% para positivos. O F1-score, que equilibra precisão e recall, foi de 69% para quem não tinha a doença e 57% para quem tinha. Esses números mostram que **o modelo tem desempenho razoável**, mas ainda pode ser melhorado, principalmente na detecção de casos positivos.
 
@@ -68,7 +69,10 @@ O modelo de predição de doenças cardíacas obteve uma acurácia de 64%, ou se
 
 ## 📉 Visualizações
 
-(projeto_01\assets\matrix_confusion.png)
+|Matriz de Confusão|
+|------------------|
+|![matriz de confusão](./assets/matrix_confusion.png)|
+
 |                   | **Predito Saudável** | **Predito Doente** |
 | ----------------- | -------------------- | ------------------ |
 | **Real Saudável** | 109 (Verdadeiro Positivo)       | 41 (Falso Negativo)        |
